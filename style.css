@@ -61,7 +61,7 @@
 }
 
 .estudante{
-    background-image: -moz-linear-gradient(#FC0505,#0029FF);
+    background-image: linear-gradient(#FC0505,#0029FF);
 }
 
 .estudante-titulo{
