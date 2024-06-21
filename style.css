@@ -45,6 +45,7 @@
 .escola-titulo {
     padding: 24px 0;
     font-size: 35px;
+    align-items: center;
 }
 
 .escola-imagem{
@@ -58,20 +59,24 @@
 .estudante-div{
     text-align: center;
     padding: 20px 20px;
-}
+}   
 
 .estudante{
-    background-image: linear-gradient(#FC0505,#0029FF);
+    background-image: linear-gradient(#fc0505,#0029FF);
 }
 
 .estudante-titulo{
     text-align: center;
     font-size: 32px;
-    color: black;
     padding: 30px 0;
+    .rodape-imagem{
+        font-size: 10px;
+        padding: 10px 10px;
+        }
 }
 
-.estudante-todos{
+
+.estudantes-todos{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
@@ -83,6 +88,11 @@
 
 .rodape-texto{
     color: red;
-    font-size: 32px;
-    padding: 12px 12px;
+    font-size: 10px;
+    padding: 10px 10px;
+}
+
+.rodape-imagem{
+    height: 35px;
+    padding: 13px 0;
 }
